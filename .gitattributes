@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+chicago.csv filter=lfs diff=lfs merge=lfs -text
+titanic.csv filter=lfs diff=lfs merge=lfs -text
+titanic_data.csv filter=lfs diff=lfs merge=lfs -text
